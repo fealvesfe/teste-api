@@ -62,8 +62,37 @@ header{
 .cadastro{
   background-color: whitesmoke;
   width: 30%;
-  height: %;
-  margin-top: 22%;
+  height: 10%;
+  margin-top: 20%;
   margin-left: 5%;
   border-radius: 15px;
+  
+}
+.input-field{
+    display:grid;
+    justify-content:center
+}
+.btn_cadastro{
+    width: 130px;
+    height: 40px;
+    border:none;
+    outline: none;
+    border-radius: 49px;
+    cursor: pointer;
+    background-color: #B71258;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin:10px 0;
+    justify-content: center;
+    
+}
+.btn_cadastro:hover{
+    background-color: #CC5587;
+}
+.img_cadastro{
+width: 30%;
+height: 10%;
+margin-right: 1%    ;
 }

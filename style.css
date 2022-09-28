@@ -75,8 +75,8 @@ header {
     width: 30%;
     height: 10%;
     padding: 40px;
-    margin-top: 17%;
-    margin-left: 5%;
+    margin-top: 15%;
+    margin-left: 7%;
     border-radius: 15px;
 }
 
@@ -153,9 +153,9 @@ form{
 }
 
 .img_cadastro {
-    width: 45%;
+    width: 50%;
     height: 10%;
-    margin-top: 12%;
+    margin-top: 10%;
     margin-left: 10%;
 }
 

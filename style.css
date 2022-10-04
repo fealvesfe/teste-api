@@ -146,6 +146,7 @@ form{
     text-transform: uppercase;
     font-weight: 600;
     margin: 10px 0;
+    padding: 10px 30px;
     justify-content: center;
 }
 
@@ -197,6 +198,38 @@ form{
     color: white;
     text-transform: uppercase;
     font-weight: 600;
-    margin: 10px 0;
+    margin: 50px 45px;
     justify-content: center;
+    padding: 10px 15px;
 }
+
+
+.input_data{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0) ;
+    color: rgb(0, 0, 0);
+}
+
+.input_data:hover{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0) ;
+    color: rgb(0, 0, 0);
+}
+
+input[type="date"]{
+    text-align: right;
+    
+}
+
+input[type="date"]:before{
+  content: attr(placeholder) !important;
+    color: rgb(0, 0, 0);
+    margin-right: 0.5em;
+    padding: 11px;
+    border: none;
+}
+
+input[type="date"]:focus:before{
+    color: #B71258;
+    border: none
+  }

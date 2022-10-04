@@ -87,7 +87,7 @@ form{
 
 .input{
     width: 100%;
-    
+    margin-bottom: px;
     border: 0;
     border-bottom: 2px solid #D2D2D2;
     outline: 0;
@@ -109,6 +109,7 @@ form{
 }
 
 .input-field{
+    margin-bottom: 30px;
     width: 100%;
     position: relative;
     /* margin: 30px 0; */
@@ -170,5 +171,32 @@ form{
      display: none;
 }
 .cadastro2{
-    
+    background-color: whitesmoke;
+    width: 30%;
+    height: 43vmax;
+    padding: 40px;
+    margin-top: 7%;
+    margin-left: 33%;
+    border-radius: 15px;
+}
+
+.btn_navigation{
+    display: inline-block ;
+}
+
+
+.btn_seta{
+    width: 50px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 49px;
+    cursor: pointer;
+    background-color: #B71258;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    justify-content: center;
 }

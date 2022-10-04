@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="nav container">
@@ -16,32 +18,72 @@
                 <li><a href="sobremim.html" class="nav-link">Login</a></li>
             </ul>
         </div>
-    </header> 
-        <div id="idtela" class="tela">
-                
-                <div class="cadastro">
-                    
-                    <form action="">
-                    <div class="input-field">  
-                        <h1 class="h1">ABRA SUA CONTA</h1><br>
-                        <input required type="text" name="CPF" id="CPF" class="input">
-                        <label for="CPF">Digite seu CPF</label>
-                    </div> 
-                    </form>
-                    <br>
-                    <button class="btn_cadastro">Cadastrar</button>
-                    
-                    
-                
-                </div>
-                    <div class="img_cadastro">
-                    <img src="coffe.svg" alt="imagem banco">
-            </div> 
-        </div>
-        <div id="idtela2" class="tela">
-            <div class="cadastro2">
+    </header>
+    <div id="idtela" class="tela">
 
-            </div>
+        <div class="cadastro">
+
+            <form action="">
+                <div class="input-field">
+                    <h1 class="h1">ABRA SUA CONTA</h1><br>
+                    <input required type="text" name="CPF" id="CPF" class="input">
+                    <label for="CPF">Digite seu CPF</label>
+                </div>
+            </form>
+            <br>
+            <button class="btn_cadastro">Cadastrar</button>
+
+
+
         </div>
+        <div class="img_cadastro">
+            <img src="coffe.svg" alt="imagem banco">
+        </div>
+    </div>
+    <div id="idtela2" class="tela">
+        <div class="cadastro2">
+            <form action="">
+                <div class="input-field">
+                    <h1 class="h1">DADOS PESSOAIS</h1><br>
+                    <input required type="text" name="NOME" id="NOME" class="input">
+                    <label for="NOME">Nome Completo</label>
+
+                </div>
+                <div class="input-field">
+                    <input required type="date" name="DATANASC" id="DATANASC" class="input">
+                </div>
+                <div class="input-field">
+                    <input required type="text" name="NOME" id="NOME" class="input">
+                    <label for="NOME">E-mail</label>
+                </div>
+                <div class="input-field">
+                    <!-- <label for="GENERO">Gênero</label> -->
+                    <select name="GENERO" id="GENERO" class="input">
+                        <option value="M">Masculino</option>
+                        <option value="F">Feminino</option>
+                        <option value="O">Outros</option>
+                    </select>
+                </div>
+                <div class="btn_navigation">
+                    <table>
+                        <tr>
+                        <td>
+                            <div>
+                                <button class="btn_seta"><-</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="btn_next">
+                                <button class="btn_seta">-></button>
+                            </div>
+                        </td>       
+                        </tr>
+                    </table>
+                </div>
+            </form>
+
+        </div>
+    </div>
 </body>
+
 </html>
